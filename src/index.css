@@ -1,0 +1,97 @@
+
+body {
+  margin: 0;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  background-color: #ffffff;
+}
+
+form {
+  margin: auto;
+  width: 30vw;
+  background-color: #f1f3f6;
+  border-radius: 8px;
+  padding: 10px 20px;
+  box-shadow: 0px 5px 12px -5px #e1e3e6, 0px 1px 1px 0px #e1e3e6,
+     0px 10px 24px -10px #e1e3e6;
+}
+.okviri{
+  text-align: left;
+  border: 3px solid lightblue;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px 5px;
+}
+input[type=text], [type=email],
+select {
+  width: 100%;
+  padding: 8px 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+  border: 2px solid #555;
+}
+input[type="radio"]{
+
+  margin: 8px;
+}
+input[type="checkbox"] {
+  margin: 1px 10px;
+}
+.uvjet{
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+ h3{
+  color: #646cff;
+  font-size: 17px;
+  margin-bottom: -20px;
+  text-align: left;
+}
+
+button {
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  color: black;
+  font-family: inherit;
+  background-color: #6eba3c;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+.nacinPlacanja{
+  margin: 5px;
+  text-align: left;
+}
+#naGranici{
+  position: absolute;
+  top: 408px;
+  background-color: #f1f3f6;
+  color: #646cff;
+}
+.sazetak {
+  background-color: #646cff;
+  padding: 10px;
+  border-radius: 6px;
+  width: 30vw;
+  margin-top: 1rem;
+  margin: 20px auto;
+}
+.okvir {
+  background-color: #4925cc;
+  padding: 10px;
+  box-shadow: 2px 2px 2px;
+}
+.okvir .info {
+  color: white;
+  text-align: left;
+}
